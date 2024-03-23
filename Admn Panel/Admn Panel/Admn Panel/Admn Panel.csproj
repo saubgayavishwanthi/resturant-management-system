@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D841D4BF-7FDF-47E4-B1A7-5E018907E8D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Admn_Panel</RootNamespace>
+    <AssemblyName>Admn Panel</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\Users\User\Downloads\Krypton-master\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\Users\User\Downloads\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Users\User\Downloads\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Beverage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beverage.Designer.cs">
+      <DependentUpon>Beverage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Billing System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing System.Designer.cs">
+      <DependentUpon>Billing System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="burger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="burger.Designer.cs">
+      <DependentUpon>burger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dessert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dessert.Designer.cs">
+      <DependentUpon>dessert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empdetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="empdetails.Designer.cs">
+      <DependentUpon>empdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="employees.Designer.cs">
+      <DependentUpon>employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pizza.Designer.cs">
+      <DependentUpon>Pizza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="products.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="products.Designer.cs">
+      <DependentUpon>products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product_details.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="product_details.Designer.cs">
+      <DependentUpon>product_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reprots.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="reprots.Designer.cs">
+      <DependentUpon>reprots.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Beverage.resx">
+      <DependentUpon>Beverage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing System.resx">
+      <DependentUpon>Billing System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="burger.resx">
+      <DependentUpon>burger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dessert.resx">
+      <DependentUpon>dessert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empdetails.resx">
+      <DependentUpon>empdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employees.resx">
+      <DependentUpon>employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza.resx">
+      <DependentUpon>Pizza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="products.resx">
+      <DependentUpon>products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product_details.resx">
+      <DependentUpon>product_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reprots.resx">
+      <DependentUpon>reprots.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commerce_online_buy_store_business_box_product_item_icon_219867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5087579.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9fed39cfe9615587337e59c057afd09c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkybr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkybr1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

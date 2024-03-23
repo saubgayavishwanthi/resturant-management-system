@@ -1,0 +1,40 @@
+C:\Secondsem Project\Admn Panel\Admn Panel\bin\Debug\Admn Panel.exe.config
+C:\Secondsem Project\Admn Panel\Admn Panel\bin\Debug\Admn Panel.exe
+C:\Secondsem Project\Admn Panel\Admn Panel\bin\Debug\Admn Panel.pdb
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Form1.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Properties.Resources.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn Panel.csproj.GenerateResource.Cache
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn Panel.exe
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn Panel.pdb
+C:\Secondsem Project\Admn Panel\Admn Panel\bin\Debug\Guna.UI.dll
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.home.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.employees.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.products.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.reprots.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.empdetails.resources
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn Panel.csprojResolveAssemblyReference.cache
+C:\Secondsem Project\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.product_details.resources
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\Admn Panel.exe.config
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn Panel.exe
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn Panel.pdb
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\Admn Panel.exe
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\Admn Panel.pdb
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\Guna.UI.dll
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.empdetails.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.employees.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Form1.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.home.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.products.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.product_details.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Properties.Resources.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.reprots.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn Panel.csproj.GenerateResource.Cache
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\MySql.Data.dll
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Billing_System.resources
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\New folder (3)\Admn Panel\Admn Panel\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Beverage.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.burger.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.dessert.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn_Panel.Pizza.resources
+C:\New folder (3)\Admn Panel\Admn Panel\obj\Debug\Admn Panel.csprojResolveAssemblyReference.cache
